@@ -1,6 +1,16 @@
 [![Build Status](https://travis-ci.org/markcellus/youtube-video-js.svg?branch=master)](https://travis-ci.org/markcellus/youtube-video-js)
 [![npm version](https://badge.fury.io/js/youtube-video-js.svg)](https://badge.fury.io/js/youtube-video-js)
 
+# A Modified Version of the original
+
+ - Add `setVolume` method
+
+```js
+const video = document.querySelector('youtube-video');
+video.setVolume( number ) // 0 - 100
+```
+
+
 # YouTube Video
 
 A `<youtube-video>` web component that allows you to easily play and control YouTube videos, powered by the
