@@ -1,15 +1,6 @@
 [![Build Status](https://travis-ci.org/markcellus/youtube-video-js.svg?branch=master)](https://travis-ci.org/markcellus/youtube-video-js)
 [![npm version](https://badge.fury.io/js/youtube-video-js.svg)](https://badge.fury.io/js/youtube-video-js)
 
-# A Modified Version of the original
-
- - Add `setVolume` method
-
-```js
-const video = document.querySelector('youtube-video');
-video.setVolume( number ) // 0 - 100
-```
-
 
 # YouTube Video
 
@@ -21,6 +12,15 @@ This library aims to mimick the methods and properties of HTML5's
 [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) tag to offer a simple, standardized API
 that is easy to use and adheres to the latest video tag specifications and supports all major
 [media events](https://html.spec.whatwg.org/multipage/media.html#mediaevents).
+
+## This Is A Modified Version Of The Original
+
+ - Add `setVolume` method
+
+```js
+const video = document.querySelector('youtube-video');
+video.setVolume( number ) // 0 - 100
+```
 
 ## Installation
 
